@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="imagenes/icon.png">
+    <title>Página Principal</title>
+</head>
+
+
+
+<body>
+<header>
+    <!-- Cabecera-->
+
+    <a href="https://www.themoviedb.org/" target="_blank">
+        <img src="https://www.themoviedb.org/assets/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg" 
+        alt="The Movie Database Logo"
+        height="25">
+    </a>
+
+
+    <nav>
+        <ul>
+        <li><a href="#buscador">Buscador</a></li>
+        <li><a href="contacto.html">Contacte</a></li>
+        
+        </ul>
+    </nav>
+</header>
+
+
+
+
+
+<main>
+    <section id="buscador">
+        <h1>Buscar una pelicula</h1>
+        <p>Milions de titols, un sol cercador </p>
+
+        <form method="get" action="https://www.themoviedb.org/search">
+            <div>
+                <input type="text"
+                    name="query" 
+                    id="searchInput"
+                    placeholder="Cerca una pel·lícula..."
+                    required>
+                <button type="submit" id="searchButton">Cercar</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="resultats">
+        <h2>Resultats</h2>
+
+        <article class="results">
+            <img src="imagenes/step-up1.jpg"
+                 alt="Cartell de Step up"
+                 width="200"
+                 height="300">
+
+            <h3>Step up 1</h3>
+            <p>2006</p>
+        </article>
+
+        <article class="results">
+            <img src="imagenes/step-up2.jpg"
+                 alt="Cartell de Step Up 2"
+                 width="200"
+                 height="300">
+
+            <h3>Step up 2</h3>
+            <p>2008</p>
+        </article>
+
+        <article class="results">
+            <img src="imagenes/step-up3.jpg"
+                 alt="Cartell de Step Up 3"
+                 width="200"
+                 height="300">
+                <h3>Step up 3</h3>
+                <p>2010</p>
+        </article>       
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 The Movie Database - Maqueta de disseny.</p>
+</footer>
+</body>
+</html> 
