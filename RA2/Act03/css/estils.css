@@ -1,0 +1,153 @@
+/* ===== DISTRIBUCIÓ (codi donat, no el modifiqueu) ===== */
+
+nav { display: flex; justify-content: space-between; align-items: center; }
+
+nav ul { display: flex; gap: 32px; 
+
+}
+
+.resultats { display: flex; gap: 24px; }
+
+.targeta { flex: 1; }
+
+
+/* ===== ELS VOSTRES ESTILS ===== */
+body {
+    margin:0;
+    font-family: 'Work Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-width: fit-content;
+
+}
+header{
+    background-color: #0b3a5e;
+    padding: 15px 30px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+nav a {
+    color: #bababa;
+    text-decoration: none;
+    font-size: 14px;
+}
+nav a:hover {
+    color : #01b4e4;
+}
+.buscador{
+    background-color: #032541;
+    color:white;
+    text-align: center;
+    padding: 60px 20px 80px;
+   
+}
+.buscador h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.buscador p {
+    font-size: 16px;
+    color: #cccccc;
+    display: block;
+    margin-bottom: 30px;
+}
+.buscador form {
+    max-width: 800px;
+    margin: 0 auto;
+    
+   
+}
+.cerca-form {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    width: 100%;
+}
+.buscador input {
+    
+    width: 70%;
+    box-sizing: border-box;
+    border: none;
+    
+    background-color: #0b3a5e;
+    color: white;
+    padding: 12px;
+    border-radius: 5px 0 0 5px;
+    font-family: inherit;
+    margin: 0;
+}
+.buscador button {
+    background-color:#01b4e4;
+    border: none;
+    color:black;
+    padding: 12px;
+    margin: 0;
+    border-radius: 0 5px 5px 0;
+    font-family: inherit;
+    font-weight: bold
+    
+
+}
+.pelicules{
+    padding : 70px 60px ;
+    width: 100%;
+    box-sizing: border-box;
+     margin: 0 auto;
+
+}
+.pelicules h2{
+    margin-bottom: 35px;
+}
+
+.targeta {
+    flex: 0 1 265px;       
+    overflow: hidden;
+    background-color: #0b3a5e;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.targeta img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 5 / 6;
+    object-fit: cover;
+    object-position: center 20%;
+}
+.targeta h3{
+    margin: 0;
+    padding: 12px 12px 4px;
+    color: white;
+    font-size: 13px; 
+}
+.targeta p{
+    margin: 0;
+    padding: 0 12px 14px;
+    color: #90cea1;
+    font-size: 13px;
+
+}
+footer{
+    background-color: #032541;
+    color: white;
+    font-size:12px;
+     padding: 15px 24px;
+}
+main {
+    flex: 1;
+}
+
+
+.resultats {
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
